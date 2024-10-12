@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/Simo672K/go-netmon/cmd"
+)
 
 func main() {
-	fmt.Println("Hello, world!")
+	cmd.Run()
 }
